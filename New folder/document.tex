@@ -1,0 +1,79 @@
+
+\documentclass[a4paper]{article}
+
+%% Language and font encodings
+\usepackage[T1,T8K,T8M]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage[english,georgian]{babel}
+
+%% Sets page size and margins
+\usepackage[a4paper,top=3cm,bottom=2cm,left=3cm,right=3cm,marginparwidth=1.75cm]{geometry}
+
+%% Useful packages
+\usepackage{amsmath}
+\usepackage{graphicx}
+\usepackage[colorinlistoftodos]{todonotes}
+\usepackage[colorlinks=true, allcolors=blue]{hyperref}
+\usepackage{float}
+\usepackage{enumerate}
+\usepackage{subfig}
+
+\title{კეპლერის კანონები}
+\author{ლეევან კანკაძე}
+
+\begin{document}
+	\maketitle
+	
+	\begin{abstract}
+		კეპლერის კანონები.
+	\end{abstract}
+		
+		
+	\section{შესავალი}
+	 
+	\section{კეპლერის კანონები}
+	\subsection{კეპლერის პირველი კანონი}
+	\subsection{კეპლერის მეორე კანონი}
+	\subsection{კეპლერის მესამე კანონი}
+	\begin{equation}
+		\frac{T_1^2}{T_2^2} = \frac{a_1^3}{a_2^3}
+	\end{equation}
+	\section{კოსმოსური სიჩქარეები}
+	\subsection{პირველი კოსმოსური სიჩქარე}
+		პირველი კოსმოსური სიჩქარე არის ის სიჩქარე, რომელიც საჭიროა სხეულს მივანიჭოთ გასროლისას რომ არ დაეცეს დედამიწაზე და გააგრძელოს მის გარშემო ბრუნვა. ნიუტონის მეორე კანონით:
+		\begin{equation}
+			\frac{mv^2}{2} = G\frac{M_Em}{r_E^2}
+		\end{equation}
+სადაც $M_E$ არის დედამიწის მასა, $r_E$ არის დედამიწის რადიუსი. რიცხვით გამოთვლისას მიიღება რომ $v = 7.91 \cdot 10^3$ მ/წმ.
+
+	\subsection{მეორე კოსმოსური სიჩქარე}
+		მეორე კოსმოსური სიჩქარის მინიჭებისას სხეულს შეუძლია დატოვოს დედამიწის ორბიტა, თუკი ჩავწერთ სრულ მექანიკურ ენერგიას. 
+			\begin{equation}
+				E = \frac{mv^2}{2} - G\frac{M_E m}{r_E}
+			\end{equation}
+ცხადოა როდესაც დედამიწის დატოვებს მას აღარ ექნება დედამიწასთან ურთიერთქმედების პოტენციალური ენერგია, და რადგან მინიმალურ სიჩქარეს ვეძებთ აღარც კინეტიკური ენერგია ექნება ორბიტის დატოვებისას მაშინ.
+			\begin{equation}
+				\frac{mv^2}{2} - G\frac{M_E m}{r_E} = 0
+			\end{equation}
+აქედან მივიღებთ:
+			\begin{equation}
+				v = \sqrt{\frac{2GM_E}{r_E}}
+			\end{equation}
+სადაც $M_E$ არის დედამიწის მასა, $r_E$ არის დედამიწის რადიუსი. რიცხვით გამოთვლისას მიიღება რომ $v = 11.2 \cdot 10^3$ მ/წმ.
+
+ორივე შემთხვევაში შეიძლება გამოვიყენოთ მიახლოება, $g = GM/r_E^2$ და ზემო განტოლებებში ჩავსვათ.
+
+
+\section{ამოცანები}
+\textbf{1} რა დროში დაეცემა მთვარე დედამიწას თუ ის სწრაფად გაჩერდება.\\
+ამოხნსა: ამ ამოცანაში უნდა გამოვიყენოთ კეპლერის მესამე კანონი:
+	\begin{equation}
+		\frac{T_1^2}{T_2^2} = \frac{a_1^3}{a_2^3}
+	\end{equation}
+დავარდნა შეიძლება განვიხილოთ როგორც ძალიან გაწელილი ელიფსი. თუ დავუშვებთ რომ თავიდან მთვარის რადიუსი იყო $a$ ახალი რადიუსი იქნება $a/2$, მაშინ ვარდნის დრო იქნება.
+	\begin{equation}
+		T_1^2 = T_2^2\cdot\frac{(a/2)^3}{a^3} = T_2^2 \frac{1}{8}
+	\end{equation}
+სადაც $T_2$ არის ძველი მთვარის პერიოდი, მაშინ დავარდნის დრო იქნება პერიოდის ნახევარი $T_1/2$
+	
+\end{document}
