@@ -8,17 +8,24 @@
 %% Sets page size and margins
 \usepackage[a4paper,top=3cm,bottom=2cm,left=3cm,right=3cm,marginparwidth=1.75cm]{geometry}
 
+\usepackage[plainpages=false,bookmarksopen,pdfpagelabels, %
+pdftex,
+pdfproducer={Latex with hyperref},
+pdfcreator={pdflatex},
+bookmarksnumbered,unicode]{hyperref} 
+
 %% Useful packages
 \usepackage{amsmath}
 \usepackage{graphicx}
 \usepackage[colorinlistoftodos]{todonotes}
-\usepackage[colorlinks = true, allcolors = blue]{hyperref}
+%\usepackage[colorlinks = true, allcolors = blue]{hyperref}
 \usepackage{float}
 \usepackage{enumerate}
 \usepackage{subfig}
 \usepackage{gensymb}
 
 \usepackage[version=4]{mhchem}
+
 
 \title{ფიზიკა}
 \author{ლევან კანკაძე}
@@ -326,6 +333,9 @@ $G = 6.67 \times 10^{-11} \dfrac{\text{ნ}\cdot\text{მ}^2}{\text{კგ}^2}$ 
 \section{ამოცანები.}
 
 \chapter{ელექტრობა}
+\section{კონდენსატორი}
+კონდენსატორის ენერგია გამოითვლება შემდეგი ფორმულით:
+$$C = \frac{q}{\varphi}$$
 
 \chapter{გეომეტრიული ოპტიკა}
 \section{ჩრდილი და ნახევარჩრდილი} 
@@ -475,6 +485,6 @@ $D$ სიდიდე ფოკუსური მანძილის შე�
 სინათლის სხივი ეცემა $d = 0.6$ სმ სისქის ბრტყელი პარალელური მინის ფირფიტას.დაცემის კუთხე $60 \degree$-ია. იპოვეთ ამ ფირფიტაში გასული სხივის წანაცვლების სიდიდე.
 
 \chapter{ბირთვული ფიზიკა}
-$\alpha$ დაშლა $\ce{^235_92U -> ^231_90Th ^4_2He}$
+$\alpha$ დაშლა $\ce{^235_92U -> ^231_90Th + ^4_2He}$
 
 \end{document}
