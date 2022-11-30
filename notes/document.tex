@@ -473,6 +473,31 @@ $$T = 2\pi \sqrt{\dfrac{l}{g}}$$
 \textbf{02.}
 \includegraphics[width=0.9\columnwidth]{temp_pdfs/2.pdf}
 
+\section{ცვლადი დენი}
+მრავალ პოლუსიანი გენერატორებისათვის სამართლიანია შემდეგი ფორმულა. გენერატორზე აღძრული ემძ ტოლია:
+$$\varphi = pn$$
+$p$ არის პოლუსების წყვილის რაოდენობა, $n$ ბრუნვის სიხშირე. წყარო მიაკიშევი 11 კლასი
+
+დენის ეფექტური მნიშვნელობა\dots
+ნებისმიერი ფორმის პერიოდული დენისათვის
+$V_\text{rms} = \sqrt{\frac{1}{T} \int_0^{T}{[v(t)]^2 dt}}$
+
+სინუსიადოლური ფორმისათვის:
+$\begin{align}
+  V_\text{rms} &= \sqrt{\frac{1}{T} \int_0^{T}[{V_\text{peak}\sin(\omega t + \phi)]^2 dt}}\\
+               &= V_\text{peak}\sqrt{\frac{1}{2T} \int_0^{T}[{1 - \cos(2\omega t + 2\phi)] dt}}\\
+               &= V_\text{peak}\sqrt{\frac{1}{2T} \int_0^{T}{dt}}\\
+               &= \frac{V_\text{peak}}{\sqrt {2}}
+\end{align}$
+
+where the [[trigonometric identity]] <math>\sin^2(x) = \frac {1 - \cos(2x)}{2}</math> has been used and the factor <math>\sqrt{2}</math> is called the [[crest factor]], which varies for different waveforms.
+| For a [[triangle wave]]form centered about zero
+: <math>V_\text{rms} = \frac{V_\text{peak}}{\sqrt{3}}.</math>
+| For a [[square wave]]form centered about zero
+: <math>V_\text{rms} = V_\text{peak}.</math>
+}}
+ვიკიპედია...
+
 \chapter{სითბური მოვლენები}
 \section{ენტროპია და მისი კავშირი ალბათობასთა}
 %მირინაშვილის მიხედვით. გვერდი 91.
