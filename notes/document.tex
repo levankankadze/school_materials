@@ -638,6 +638,46 @@ $$m = \frac{1}{F}\frac{M}{n}It$$
 		\includegraphics[width=0.3\columnwidth]{figures/tranformer}
 	\end{figure}
 
+\section(დოპლერის ეფექტი)
+https://en.wikipedia.org/wiki/Doppler_effect
+In classical physics, where the speeds of source and the receiver relative to the medium are lower than the velocity of waves in the medium, the relationship between observed frequency $\mathbf{f}$ and emitted frequency $\mathbf{f_0}$ is given by:
+\begin{references}
+\item \cite{book:encyclopediaofphysci}
+\end{references}
+\begin{displaymath}
+f = \left( \frac{c \pm v_\text{r}}{c \pm v_\text{s}} \right) f_0
+\end{displaymath}
+where
+*$\mathbf{c}$ is the propagation speed of waves in the medium;
+*$\mathbf{v_\text{r}}$ is the speed of the receiver relative to the medium, added to $\mathbf{c}$ if the receiver is moving towards the source, subtracted if the receiver is moving away from the source;
+*$\mathbf{v_\text{s}}$ is the speed of the source relative to the medium, added to $\mathbf{c}$ if the source is moving away from the receiver, subtracted if the source is moving towards the receiver.
+
+Note this relationship predicts that the frequency will decrease if either source or receiver is moving away from the other.
+
+Equivalently, under the assumption that the source is either directly approaching or receding from the observer:
+\begin{displaymath}
+\frac{f}{v_{wr}} = \frac{f_0}{v_{ws}} = \frac{1}{\lambda}
+\end{displaymath}
+where 
+*$\mathbf{v_{wr}}$ is the wave's velocity relative to the receiver;
+*$\mathbf{v_{ws}}$ is the wave's velocity relative to the source;
+*$\mathbf{\lambda}$ is the wavelength.
+
+If the source approaches the observer at an angle (but still with a constant velocity), the observed frequency that is first heard is higher than the object's emitted frequency. Thereafter, there is a monotonic decrease in the observed frequency as it gets closer to the observer, through equality when it is coming from a direction perpendicular to the relative motion (and was emitted at the point of closest approach; but when the wave is received, the source and observer will no longer be at their closest), and a continued monotonic decrease as it recedes from the observer. When the observer is very close to the path of the object, the transition from high to low frequency is very abrupt. When the observer is far from the path of the object, the transition from high to low frequency is gradual.
+
+If the speeds $\mathbf{v_\text{s}}$ and $\mathbf{v_\text{r}}$ are small compared to the speed of the wave, the relationship between observed frequency $\mathbf{f}$ and emitted frequency $\mathbf{f_0}$ is approximately
+\begin{references}
+\item \cite{book:encyclopediaofphysci}
+\end{references}
+\begin{tabular}{|l|c|c|}
+\hline
+Observed frequency & Change in frequency\\
+\hline
+\begin{displaymath}
+f = \left(1+\frac{\Delta v}{c}\right) f_0
+\end{displaymath} & 
+
+
 \chapter{გეომეტრიული ოპტიკა}
 \section{ჩრდილი და ნახევარჩრდილი} 
 თუ სხეულს დავანათებთ წერტილოვანი წყაროდან, მაშინ საგნის ჩრდილი იქნება სრული, მკვეთრად შემოხაზული საზღვრით. 
@@ -839,7 +879,36 @@ https://calculus.nipissingu.ca/tutorials/integrals.html
 \chapter{მელედინი 1.165} აუზის პორიზონტალურ ზედაპირზე დევს უმასო $r$ რადიუსის სფერო, რომელზეც მობმულია წვრილი $l$ სიგრძის ღერო, რომელიც ეხება აუზის ფსკერს, იხილე ნახაზი. იპოვეთ უმცირესი ღეროს მასა რომლისთვისაც სფერო ჯერ კიდევ დევს ფსკერზე. სითხის სიმკვრივეა $\rho_0$. 
 
 
+\chapter{ფიზიკური მუდმივები}
+\begin{tabular}{l r @{~} l}
+  \hline
+  Speed of light in a vacuum, $\c$ & 2.998 & $\times 10^8~\text{m/s}$ \\
+  Gravitational constant, $\G$ & 6.674 & $\times 10^{-11}~\text{m}^3~\text{kg}^{-1}~\text{s}^{-2}$ \\
+  Planck's constant, $\h$ & 6.626 & $\times 10^{-34}~\text{J}~\text{s}$ \\
+  Elementary charge, $\e$ & 1.602 & $\times 10^{-19}~\text{C}$ \\
+  Mass of electron, $\m$ & 9.109 & $\times 10^{-31}~\text{kg}$ \\
+  Bohr magneton, $\mub$ & 9.274 & $\times 10^{-24}~\text{J/T}$ \\
+  Magnetic moment of proton, $\muc$ & 1.410 & $\times 10^{-26}~\text{J/T}$ \\
+  Thermal energy, $\kT$ & 2.075 & $\times 10^{-21}~\text{J}$ (at 300~K) \\
+  Avogadro's constant, $\NA$ & 6.022 & $\times 10^{23}~\text{mol}^{-1}$ \\
+  Molar gas constant, $\R$ & 8.314 & $\text{J/mol~K}$ \\
+  Faraday constant, $\F$ & 96485.33 & $\text{C/mol}$ \\
+  Fine-structure constant, $\alphaG$ & 7.297 & $\times 10^{-3}$ \\
+  Electromagnetic coupling constant, $\alphaEM$ & 7.297 & $\times 10^{-3}$ \\
+  QED coupling constant, $\alphaQED$ & 7.297 & $\times 10^{-3}$ \\
+  Reduced fine-structure constant, $\alphabar$ & 1/137.035999 \\
+  Relative permittivity, $\epsilonr$ & 8.854 & $\times 10^{-12}~\text{F/m}$ \\
+  Magnetic permeability of vacuum, $\muT$ & 4$\pi \times 10^{-7}~\text{N/A}^2$ \\
+  Bohr magneton, $\muB$ & 9.274 & $\times 10^{-24}~\text{J/T}$ \\
+  Nuclear magneton, $\muN$ & 5.050 & $\times 10^{-27}~\text{J/T}$ \\
+  \hline
+\end{tabular}
+
 \section{წყაროები}
 link: https://zaochnik.com/spravochnik/fizika/elektromagnitnye-kolebanija-volny/rlc-kontur-svobodnye-kolebanija/  \\
+
+link: https://www2.ph.ed.ac.uk/~mevans/mp2h/VTF/lecture21.pdf \\
+
+
 
 \end{document}
